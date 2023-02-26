@@ -1,0 +1,49 @@
+.header{
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.header img{
+    height: 4rem;
+}
+.listRouts {
+    display: flex;
+    align-items: center;
+    border: 1rem;
+}
+.listRouts ul {
+    display: flex;
+    gap: 4rem;
+}
+.listRouts ul li{
+    font-size: 24px;
+    list-style-type: none;
+}
+.listRouts ul li button{
+    color: var(--orange-300);
+    border: 2px solid var(--orange-300);
+    border-radius: 64px;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    background: transparent;
+}
+
+.listRouts ul li button:hover{
+    background: var(--orange-300);
+    color: var(--white);
+}
+
+.listRouts ul .signin li button{
+    color: var(--white);
+    background: var(--orange-300);
+    border: 2px solid var(--orange-300);
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+.listRouts ul .signin li button:hover{
+    background: transparent;
+    color: var(--orange-300);
+}
+

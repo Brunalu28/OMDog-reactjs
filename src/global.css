@@ -1,0 +1,52 @@
+:root{
+  --white: #ffffff;
+  --gray-100: #e1e1e6;
+
+  --orange-100: #fff2ee;
+  --orange-200: #f0a589;
+  --orange-300: #e2531c;
+  --orange-500: #883110;
+  --orange-700: #82310f;
+
+  --green-200: #2E8B57;
+
+  --black: #070404;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.FormLogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: 15rem;
+  border: 1px solid var(--white);
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.311);
+}
+.modalLoginOverlay{
+  background: black;
+}
